@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <b>A Live2D AI desktop pet that actually lives on your desktop.</b><br>
-  It reacts to your keyboard, mouse, and controller, can chat with you, and stores memory in local Markdown files.
+  <b>A local-first AI desktop companion with transparent Markdown memory.</b><br>
+  It reacts to your keyboard, mouse, and controller, supports chat, and keeps persistent companion memory in editable local files.
 </p>
 
 <p align="center">
@@ -30,15 +30,15 @@
 
 ## Why BongoCat AI
 
-Most AI products live in a chat box.
+Most AI products still live inside a chat box.
 
-**BongoCat AI** is trying to live on your desktop instead.
+**BongoCat AI** takes a different direction: a local-first AI desktop companion with a persistent memory layer that stays close to the desktop instead of hiding behind a web app.
 
 It keeps the original BongoCat feeling — lightweight, cute, responsive — and extends it with:
 
 - real-time keyboard, mouse, and gamepad reactions
-- a dedicated chat window
-- local Markdown-based memory
+- a dedicated companion chat window
+- editable Markdown memory with persistent context
 - desktop-native controls like tray, startup, always-on-top, and window behavior settings
 
 ---
@@ -54,18 +54,18 @@ It keeps the original BongoCat feeling — lightweight, cute, responsive — and
 
 ### Adds AI without turning into a generic chatbot
 
-- Dedicated chat window
+- Dedicated companion chat window
 - Configurable provider, model, base URL, and API key
 - Streaming-style replies and multi-turn context
-- Companion-style direction instead of pure tool-style interaction
+- Designed around companion UX instead of pure tool-style interaction
 
 ### Local memory, not black-box memory
 
-- Memory is stored in local Markdown files
+- Memory lives in editable local Markdown files
 - `PERSONA.md` for character and tone
-- `MEMORY.md` for stable long-term memory
-- `daily/YYYY-MM-DD.md` for daily context and temporary notes
-- Files are visible and editable by the user
+- `MEMORY.md` for durable memory and stable preferences
+- `daily/YYYY-MM-DD.md` for recent context and short-term notes
+- Inspired by the same transparent, local-first memory direction that made projects like OpenClaw resonate, without hiding state behind a closed memory layer
 
 ### Built for desktop use
 
@@ -104,18 +104,20 @@ If you want a more personal setup, configure your model, AI provider, and memory
 
 The original project already delivers a polished desktop pet with Live2D rendering and input reactions.
 
-This fork adds a second layer:
+This fork adds a second layer on top of that foundation:
 
-- chat, not just animation
-- long-term memory, not just one-off replies
+- companion chat, not just animation
+- persistent memory context, not just one-off replies
 - editable local memory files, not invisible black-box storage
 
 The goal is simple:
-make the pet feel like a long-term desktop companion instead of a themed chat UI.
+turn a desktop pet into a local-first AI companion layer rather than just a themed chat UI.
 
 ---
 
 ## Local Memory
+
+BongoCat AI uses a local-first Markdown memory workspace to keep companion context persistent, transparent, and user-editable.
 
 Current memory files are stored like this:
 
