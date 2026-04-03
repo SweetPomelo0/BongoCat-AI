@@ -1,5 +1,9 @@
 # BongoCat AI
 
+<p align="right">
+  English | <a href="./README.zh-CN.md">简体中文</a>
+</p>
+
 <p align="center">
   <b>A Live2D AI desktop pet that actually lives on your desktop.</b><br>
   It reacts to your keyboard, mouse, and controller, can chat with you, and stores memory in local Markdown files.
