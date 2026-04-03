@@ -6,6 +6,11 @@
 </p>
 
 <p align="center">
+  <b>A Live2D AI desktop pet that actually lives on your desktop.</b><br>
+  It reacts to your keyboard, mouse, and controller, can chat with you, remember things, and slowly grow into a companion that feels personal.
+</p>
+
+<p align="center">
   <a href="https://github.com/SweetPomelo0/BongoCat-AI/releases"><img alt="Release" src="https://img.shields.io/github/v/release/SweetPomelo0/BongoCat-AI?style=flat-square"></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/github/license/SweetPomelo0/BongoCat-AI?style=flat-square"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue?style=flat-square">
@@ -169,32 +174,6 @@
 
 ---
 
-## 自定义你的桌宠
-
-如果你希望它更像“你的”桌宠，而不是默认猫猫，可以继续扩展：
-
-### 导入自定义模型
-
-项目已经支持导入自定义模型，并提供不同模型模式能力：
-
-- `standard`
-- `keyboard`
-- `gamepad`
-
-### 模型转换工具
-
-如果你手里有其它格式或来源的模型，可以参考：
-
-- [Bongo-Cat-Mver](https://github.com/ayangweb/Bongo-Cat-Mver)
-
-### 模型分享仓库
-
-如果你想直接找现成模型：
-
-- [Awesome-BongoCat](https://github.com/ayangweb/Awesome-BongoCat)
-
----
-
 ## 从源码运行
 
 ### 环境准备
@@ -252,10 +231,6 @@ pnpm tauri build
 ## 相关项目
 
 - [ayangweb/BongoCat](https://github.com/ayangweb/BongoCat)
-- [openclaw/openclaw](https://github.com/openclaw/openclaw)
-- [ChaozhongLiu/DyberPet](https://github.com/ChaozhongLiu/DyberPet)
-- [fxy1699/PirPaw](https://github.com/fxy1699/PirPaw)
-- [jihe520/Agentic-Desktop-Pet](https://github.com/jihe520/Agentic-Desktop-Pet)
 
 ---
 
